@@ -1,0 +1,17 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:SampleModel;1",
+  "@type": "Interface",
+  "displayName": "SampleModel",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "contains"
+    },
+    {
+      "@type": "Property",
+      "name" : "data",
+      "schema": "string"
+    }
+  ]
+}
